@@ -447,12 +447,12 @@
 
       const msg =
         `✅ Nouvelle réservation — Mellali Group\n\n` +
-        `📍 Service : ${svc.emoji} ${svc.name}\n` +
-        `📍 Prix : ${svc.price} DH\n` +
-        `📍 Date : ${date} à ${time}\n` +
-        `📍 Client : ${name}\n` +
-        `📍 Tél : ${phone}\n` +
-        `📍 Paiement : ${pay}`;
+        ` Service : ${svc.emoji} ${svc.name}\n` +
+        ` Prix : ${svc.price} DH\n` +
+        ` Date : ${date} à ${time}\n` +
+        ` Client : ${name}\n` +
+        ` Tél : ${phone}\n` +
+        ` Paiement : ${pay}`;
 
       document.getElementById('waLink').href =
         'https://wa.me/212687724430?text=' + encodeURIComponent(msg);
